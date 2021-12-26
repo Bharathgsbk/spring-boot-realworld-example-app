@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 WORKDIR /home/gradle/project
 
-COPY *.jar .
+#COPY *.jar .
 #COPY ./build/libs/spring-boot-realworld-example-app-0.0.1-SNAPSHOT.jar .
 
 
