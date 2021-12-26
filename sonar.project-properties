@@ -11,4 +11,4 @@ sonar.sources=.
 sonar.sourceEncoding=UTF-8
 sonar.host.url=http://3d0f542a591d.mylabserver.com:8055
 sonar.java.binaries=./build/libs
-sonar.login=e7e16d3c4121c3fa173f59bb229b5be6f98692cc
+sonar.login=5c5af7d4c5912d3e14a774192c0f9497a32ea083
