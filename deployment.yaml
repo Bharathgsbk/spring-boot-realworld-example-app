@@ -1,23 +1,24 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata :
-     name: nginxapp
+     name: springapp
      labels: 
-         name: nginxapp
+         name: springapp
          type: front-end
 spec:
    replicas: 5
    selector: 
       matchLables:
-         app: nginxpodapp
+         app: springapp
    template: 
        metadata:
-           name: nginxapp
+           name: springapp
            labels:
-             app: nginxpodapp
+             app: springapp
        spec:
           containers:
-            - name: nginxapp
-              image: nginx
+            - name: springapp
+              image: bharathgsbk/spring-boot-image:${BUILD_NUMBER} 
+
      
          
